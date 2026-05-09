@@ -1,0 +1,73 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "tinymist.rootPath": "${workspaceFolder}",
+    "editor.tokenColorCustomizations": {
+      "[typst]": {
+        "textMateRules": [
+          {
+            "scope": "markup.heading",
+            "settings": {
+              "foreground": "#fd971f",
+              "fontStyle": "bold",
+            },
+          },
+          {
+            "scope": "markup.bold",
+            "settings": {
+              "foreground": "#ff9aa2",
+              "fontStyle": "bold",
+            },
+          },
+          {
+            "scope": "markup.italic",
+            "settings": {
+              "foreground": "#ae81ff",
+              "fontStyle": "italic",
+            },
+          },
+          {
+            "scope": "markup.raw.inline",
+            "settings": {
+              "foreground": "#e6db74",
+            },
+          },
+          {
+            "scope": "punctuation.definition.raw.begin",
+            "settings": {
+              "foreground": "#a6e22e",
+            },
+          },
+          {
+            "scope": "fenced_code.block.language",
+            "settings": {
+              "foreground": "#a6e22e",
+            },
+          },
+          {
+            "scope": "punctuation.definition.raw.end",
+            "settings": {
+              "foreground": "#a6e22e",
+            },
+          },
+          {
+            "scope": "markup.math",
+            "settings": {
+              "foreground": "#66d9ef",
+            },
+          },
+        ],
+      },
+    },
+    "chat.tools.terminal.autoApprove": {
+      "git fetch": true,
+      "git ls-tree": true,
+      "typst": true,
+      "test": true,
+    },
+  },
+}
