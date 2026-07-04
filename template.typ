@@ -2,6 +2,9 @@
 // template.typ — all styling, layout, and components
 // =====================================================
 
+// ── Packages ──────────────────────────────────────────
+#import "@preview/fontawesome:0.6.1": fa-icon
+
 // ── Colours ───────────────────────────────────────────
 #let color-accent  = rgb("#6b7c2e")
 #let color-mid     = rgb("#444444")
@@ -127,15 +130,15 @@
       #v(0.1em)
       #text(font: font-heading, fill: color-mid, size: size-job-title, tracking: job-title-tracking)[#upper(job-title)]
       #v(0.5em)
-      #text(fill: color-accent)[#sym.dot.c] #location
+      #text(fill: color-accent)[#fa-icon("location-dot")] #location
       #h(1em)
-      #text(fill: color-accent)[☎] #text(number-type: "lining", number-width: "tabular")[#phone]
+      #text(fill: color-accent)[#fa-icon("phone")] #text(number-type: "lining", number-width: "tabular")[#phone]
       #h(1em)
-      #text(fill: color-accent)[#sym.at] #link("mailto:" + email)[#email]
+      #text(fill: color-accent)[#fa-icon("envelope")] #link("mailto:" + email)[#email]
       \
-      #text(fill: color-accent)[gh/] #link("https://" + github)[#github]
+      #text(fill: color-accent)[#fa-icon("github")] #link("https://" + github)[#github]
       #h(2em)
-      #text(fill: color-accent)[in/] #link("https://" + linkedin)[#linkedin]
+      #text(fill: color-accent)[#fa-icon("linkedin")] #link("https://" + linkedin)[#linkedin]
     ],
     ..if photo != none { (box(clip: true, radius: 4pt, image(photo, width: photo-width)),) } else { () },
   )

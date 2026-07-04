@@ -15,7 +15,7 @@
   email:     "oleksandr.svirin.csci@gmail.com",
   github:    "github.com/the-gronkler",
   linkedin:  "linkedin.com/in/oleksandr-svirin",
-  photo: "resources\headshot.jpg",
+  photo: "resources/headshot.jpg",
 )
 
 
