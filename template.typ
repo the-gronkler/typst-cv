@@ -7,8 +7,7 @@
 
 // ── Colours ───────────────────────────────────────────
 #let color-accent  = rgb("#6b7c2e")
-#let color-mid     = rgb("#444444")
-#let color-light   = rgb("#666666")
+#let color-secondary = rgb("#444444")
 
 // ── Fonts ─────────────────────────────────────────────
 #let font-body    = "Corbel"
@@ -78,11 +77,11 @@
     columns: (1fr, auto),
     [
       #text(font: font-heading, weight: "bold")[#title] \
-      #text(fill: color-mid, style: "italic")[#subtitle]
+      #text(fill: color-secondary, style: "italic")[#subtitle]
     ],
     align(right)[
-      #text(fill: color-mid, size: size-meta)[#location] \
-      #text(fill: color-mid, size: size-meta)[#date]
+      #text(fill: color-secondary, size: size-meta)[#location] \
+      #text(fill: color-secondary, size: size-meta)[#date]
     ],
   )
 }
@@ -94,9 +93,9 @@
     [
       #text(font: font-heading, weight: "bold")[#title]
       #h(0.3em)
-      #text(fill: color-light, size: size-meta)[| #location]
+      #text(fill: color-secondary, size: size-meta)[| #location]
     ],
-    align(right)[#text(fill: color-light, size: size-meta)[#date]],
+    align(right)[#text(fill: color-secondary, size: size-meta)[#date]],
   )
 }
 
@@ -128,7 +127,7 @@
     [
       #text(font: font-heading, fill: color-accent, size: size-name, weight: "bold", tracking: name-tracking)[#name]
       #v(0.1em)
-      #text(font: font-heading, fill: color-mid, size: size-job-title, tracking: job-title-tracking)[#upper(job-title)]
+      #text(font: font-heading, fill: color-secondary, size: size-job-title, tracking: job-title-tracking)[#upper(job-title)]
       #v(0.5em)
       #grid(
         columns: (1fr, 1fr),

@@ -2,7 +2,7 @@
 // cv.typ — content only, no styling logic
 // =====================================================
 
-#import "template.typ": cv, cv-header, section, entry, entry-line, skill-row
+#import "template.typ": cv, cv-header, section, entry, entry-line, skill-row, color-secondary, size-meta
 
 #show: cv
 
@@ -77,9 +77,9 @@ Built a range of backend and full-stack applications focused on system design, A
   [
     #text(weight: "bold")[CELTA] #h(0.4em)
     -- Cambridge English Level 5 Certificate in #text(style: "italic")[Teaching English to Speakers of Other Languages] \
-    #text(fill: rgb("#666666"), size: 9pt)[British Council | Warsaw, Poland]
+    #text(fill: color-secondary, size: size-meta)[British Council | Warsaw, Poland]
   ],
-  align(right)[#text(fill: rgb("#666666"), size: 9pt)[2024]],
+  align(right)[#text(fill: color-secondary, size: size-meta)[2024]],
 )
 
 #v(0.4em)
