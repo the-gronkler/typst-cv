@@ -2,7 +2,7 @@
 // cv.typ — content only, no styling logic
 // =====================================================
 
-#import "template.typ": cv, cv-header, section, entry, entry-line, bullets, skill-row
+#import "template.typ": cv, cv-header, section, entry, entry-line, skill-row
 
 #show: cv
 
@@ -15,14 +15,13 @@
   email:     "oleksandr.svirin.csci@gmail.com",
   github:    "github.com/the-gronkler",
   linkedin:  "linkedin.com/in/oleksandr-svirin",
-  // photo: "photo.jpg",
+  photo: "resources\headshot.jpg",
 )
 
 
 // ── About ────────────────────────────────────────────
 #section(title: "About")
-I enjoy solving complex problems and optimising workflows, with a growing focus on system design.
-My current passion is defining structured, effective ways to integrate AI tools into the software development process.
+Software Engineer focused on backend systems and product development. I enjoy designing scalable APIs, building full-stack features, and working on system-level decisions that connect product requirements with clean technical architecture, with a growing interest in applying AI tools to improve engineering workflows and developer productivity.
 
 
 // ── Experience ───────────────────────────────────────
@@ -35,30 +34,30 @@ My current passion is defining structured, effective ways to integrate AI tools 
   date:     [Jul 2025 – present],
 )
 #v(0.25em)
-#bullets(
-  [Built and extended features in a full-stack financial reporting platform (Python, React).],
-  [Implemented backend services and frontend components for core reporting flows, including data validation and workflow state handling.],
-  [Took ownership of individual modules, including design decisions around API structure, data models, and integration points.],
-  [Developed internal automation tools using AI APIs to reduce repetitive engineering tasks (e.g. code generation and workflow assistance).],
-  [Worked with finance domain stakeholders to clarify ambiguous requirements and translate them into implementable technical specifications.],
-  [Participated in production releases, including debugging issues and supporting live user workflows.],
-)
+- Built and extended backend and frontend features for a full-stack financial reporting platform (Python, React), focusing on core reporting workflows and data integrity.
+- Designed API structures, data models, and integration flows for individual modules, taking ownership of end-to-end implementation decisions.
+- Implemented backend services for workflow state management and data validation in production reporting processes.
+- Developed internal automation tools using AI APIs to reduce repetitive engineering work and speed up development workflows.
+- Collaborated with finance domain stakeholders to translate ambiguous requirements into technical specifications and system designs.
+- Supported production releases and debugging of live systems, ensuring stability of user-facing workflows.
 
-#v(0.4em)
-
+#v(0.2em)
 #text(weight: "bold")[Engineering Thesis] #h(0.5em) #text(style: "italic")[Laravel, React]
 #v(0.25em)
-#bullets(
-  [Co-developed a full-stack restaurant ordering system (Laravel, React) with real-time updates and geolocation features.],
-  [Defined MVP scope through market research and user flow design.],
-  [Designed system architecture and implemented core ordering workflows.],
-)
+Co-developed a full-stack restaurant ordering system with real-time order tracking and geolocation-based features.
+- Designed system architecture and core domain model for ordering workflows
+- Implemented backend services and APIs in Laravel supporting real-time state updates
+- Built frontend interface in React for order placement and tracking
+- Defined MVP scope through user flow design and lightweight market research
+- Delivered end-to-end product including database schema, backend logic, and UI integration
 
-#v(0.4em)
-
+#v(0.2em)
 #text(weight: "bold")[Personal Projects]
 #v(0.25em)
-Developed a diverse portfolio of over 30 full-stack applications, database solutions, and algorithmic simulations using Spring Boot, ASP.NET Core, Laravel, and Python. Emphasising clean architecture (DDD) and Agile methodologies, projects range from complex MS SQL and Oracle schemas to custom 3D rendering engines and machine learning implementations.
+Built a range of backend and full-stack applications focused on system design, API development, and database architecture.
+- Designed and implemented multiple CRUD and workflow-based systems using Laravel, Spring Boot, ASP.NET Core, and Python
+- Focused on backend architecture patterns (layered design, domain modeling, API structuring)
+- Developed small-scale experiments in data processing and algorithmic simulations
 
 
 // ── Education ────────────────────────────────────────
@@ -95,9 +94,14 @@ Developed a diverse portfolio of over 30 full-stack applications, database solut
 // ── Skills ───────────────────────────────────────────
 #section(title: "Skills")
 
-#skill-row(label: "Soft Skills",             value: "Problem Solving, Critical Thinking, Communication, Continuous Learning, Adaptability")
-#skill-row(label: "Languages",               value: "English (C2), Polish (C1), Ukrainian & Russian (Native), German (basic)")
-#skill-row(label: "Programming Languages",   value: "Python, TypeScript, Java, C#")
-#skill-row(label: "Frameworks / Libraries",  value: "React, ASP.NET Core, Laravel")
-#skill-row(label: "Databases",               value: "PostgreSQL, MS SQL")
-#skill-row(label: "Other",                   value: "REST APIs, system design basics, AI tooling")
+#let skills = (
+  ("Core Engineering", "Backend Development, System Design, API Design (REST), Database Design, Full-stack Development"),
+  ("Programming Languages", "Python TypeScript / JavaScript, Java, C#, PHP"),
+  ("Frameworks", "React, ASP.NET Core, Laravel"),
+  ("Databases", "PostgreSQL, Microsoft SQL Server"),
+  ("Infrastructure / Tools", "REST APIs, System Design (scalable services, modular architecture), AI-assisted development tooling"),
+)
+
+#for (label, value) in skills {
+  skill-row(label: label, value: value)
+}

@@ -2,31 +2,70 @@
 // template.typ — all styling, layout, and components
 // =====================================================
 
-#let olive = rgb("#6b7c2e")
-#let mid   = rgb("#111111")
-#let light = rgb("#111111")
+// ── Colours ───────────────────────────────────────────
+#let color-accent  = rgb("#6b7c2e")
+#let color-mid     = rgb("#444444")
+#let color-light   = rgb("#666666")
 
 // ── Fonts ─────────────────────────────────────────────
 #let font-body    = "Corbel"
 #let font-heading = "Gill Sans MT"
+
+// ── Sizes ─────────────────────────────────────────────
+#let size-body         = 10pt
+#let size-meta         = 9pt
+#let size-section      = 11pt
+#let size-name         = 26pt
+#let size-job-title    = 11pt
+
+// ── Spacing ───────────────────────────────────────────
+#let leading-body      = 0.55em
+#let spacing-body      = 0.55em
+#let leading-list      = 0.45em
+#let spacing-list      = 0.35em
+#let indent-list       = 1em
+#let body-indent-list  = 0.4em
+#let gap-list          = 0.55em
+
+// ── Page ──────────────────────────────────────────────
+#let margin-top    = 1.6cm
+#let margin-bottom = 1.6cm
+#let margin-h      = 1.8cm
+
+// ── Misc ──────────────────────────────────────────────
+#let section-rule-weight  = 0.6pt
+#let photo-width          = 2.8cm
+#let skill-label-width    = 5.5cm
+#let name-tracking        = 0pt
+#let job-title-tracking   = 2pt
+
 
 // ── Page & text defaults ─────────────────────────────
 #let cv(doc) = {
   set document(title: "CV")
   set page(
     paper: "a4",
-    margin: (top: 1.6cm, bottom: 1.6cm, left: 1.8cm, right: 1.8cm),
+    margin: (top: margin-top, bottom: margin-bottom, left: margin-h, right: margin-h),
   )
-  set text(font: font-body, size: 10pt, lang: "en")
-  set par(leading: 0.55em, spacing: 0.55em)
+  set text(font: font-body, size: size-body, lang: "en")
+  set par(leading: leading-body, spacing: spacing-body)
+  set list(
+    indent: indent-list,
+    body-indent: body-indent-list,
+    spacing: gap-list,
+  )
+  show list: it => {
+    set par(leading: leading-list, spacing: spacing-list)
+    it
+  }
   doc
 }
 
 // ── Section heading ───────────────────────────────────
 #let section(title: "") = {
   v(0.6em)
-  text(font: font-heading, fill: olive, weight: "bold", size: 11pt, upper(title))
-  line(length: 100%, stroke: 0.6pt + olive)
+  text(font: font-heading, fill: color-accent, weight: "bold", size: size-section, upper(title))
+  line(length: 100%, stroke: section-rule-weight + color-accent)
   v(0.25em)
 }
 
@@ -36,11 +75,11 @@
     columns: (1fr, auto),
     [
       #text(font: font-heading, weight: "bold")[#title] \
-      #text(fill: mid, style: "italic")[#subtitle]
+      #text(fill: color-mid, style: "italic")[#subtitle]
     ],
     align(right)[
-      #text(fill: light, size: 9pt)[#location] \
-      #text(fill: light, size: 9pt)[#date]
+      #text(fill: color-mid, size: size-meta)[#location] \
+      #text(fill: color-mid, size: size-meta)[#date]
     ],
   )
 }
@@ -49,22 +88,19 @@
 #let entry-line(title: "", location: "", date: "") = {
   grid(
     columns: (1fr, auto),
-    [#text(font: font-heading, weight: "bold")[#title] #h(0.3em) #text(fill: light, size: 9pt)[| #location]],
-    align(right)[#text(fill: light, size: 9pt)[#date]],
+    [
+      #text(font: font-heading, weight: "bold")[#title]
+      #h(0.3em)
+      #text(fill: color-light, size: size-meta)[| #location]
+    ],
+    align(right)[#text(fill: color-light, size: size-meta)[#date]],
   )
-}
-
-// ── Bullet list ───────────────────────────────────────
-#let bullets(..items) = {
-  set list(indent: 1em, body-indent: 0.4em, spacing: 0.55em)
-  set par(leading: 0.45em, spacing: 0.35em)
-  list(..items)
 }
 
 // ── Skill row ─────────────────────────────────────────
 #let skill-row(label: "", value: "") = {
   grid(
-    columns: (5.5cm, 1fr),
+    columns: (skill-label-width, 1fr),
     gutter: 0.5em,
     text(font: font-heading, weight: "bold")[#label],
     text[#value],
@@ -87,20 +123,20 @@
     columns: if photo != none { (1fr, auto) } else { (1fr,) },
     gutter: 1em,
     [
-      #text(font: font-heading, fill: olive, size: 26pt, weight: "bold")[#name]
+      #text(font: font-heading, fill: color-accent, size: size-name, weight: "bold", tracking: name-tracking)[#name]
       #v(0.1em)
-      #text(font: font-heading, fill: mid, size: 11pt, tracking: 2pt)[#upper(job-title)]
+      #text(font: font-heading, fill: color-mid, size: size-job-title, tracking: job-title-tracking)[#upper(job-title)]
       #v(0.5em)
-      #text(fill: olive)[#sym.dot.c] #location
+      #text(fill: color-accent)[#sym.dot.c] #location
       #h(1em)
-      #text(fill: olive)[☎] #text(number-type: "lining", number-width: "tabular")[#phone]
+      #text(fill: color-accent)[☎] #text(number-type: "lining", number-width: "tabular")[#phone]
       #h(1em)
-      #text(fill: olive)[#sym.at] #link("mailto:" + email)[#email]
+      #text(fill: color-accent)[#sym.at] #link("mailto:" + email)[#email]
       \
-      #text(fill: olive)[gh/] #link("https://" + github)[#github]
+      #text(fill: color-accent)[gh/] #link("https://" + github)[#github]
       #h(2em)
-      #text(fill: olive)[in/] #link("https://" + linkedin)[#linkedin]
+      #text(fill: color-accent)[in/] #link("https://" + linkedin)[#linkedin]
     ],
-    ..if photo != none { (box(clip: true, radius: 4pt, image(photo, width: 2.8cm)),) } else { () },
+    ..if photo != none { (box(clip: true, radius: 4pt, image(photo, width: photo-width)),) } else { () },
   )
 }
