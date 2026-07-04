@@ -34,11 +34,18 @@ Software Engineer focused on backend systems and product development. I enjoy de
   date:     [Jul 2025 – present],
 )
 #v(0.25em)
-- Built and extended backend and frontend features for a full-stack financial reporting platform (Python, React), focusing on core reporting workflows and data integrity.
-- Designed API structures, data models, and integration flows for individual modules, taking ownership of end-to-end implementation decisions.
-- Implemented backend services for workflow state management and data validation in production reporting processes.
-- Developed internal automation tools using AI APIs to reduce repetitive engineering work and speed up development workflows.
-- Collaborated with finance domain stakeholders to translate ambiguous requirements into technical specifications and system designs.
+Built and extended backend and frontend features for a financial reporting platform, including iXBRL report generation and validation.
+
+- Implemented backend services supporting report generation workflows across a financial reporting platform.
+
+- Designed API structures and data models for modules within the reporting system, defining how application data was mapped into iXBRL report structures.
+
+- Investigated the iXBRL specification to support system design and implementation of report generation and validation features.
+
+- Designed and implemented AI-driven development tooling within the codebase, including custom agents and agent skills used to automate repetitive engineering workflows.
+
+- Collaborated with finance domain stakeholders to translate requirements into technical specifications and system designs.
+
 - Supported production releases and debugging of live systems, ensuring stability of user-facing workflows.
 
 #v(0.2em)
