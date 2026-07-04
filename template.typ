@@ -71,17 +71,20 @@
   v(0.25em)
 }
 
-// ── Job / education entry header ──────────────────────
+// ── Entry (job or education) ──────────────────────────
+// All fields optional — omitted fields take no space
 #let entry(title: "", subtitle: "", location: "", date: "") = {
   grid(
     columns: (1fr, auto),
+    gutter: 0.2em,
     [
-      #text(font: font-heading, weight: "bold")[#title] \
-      #text(fill: color-secondary, style: "italic")[#subtitle]
+      #text(font: font-heading, weight: "bold")[#title]
+      #if subtitle != "" [ \ #text(fill: color-secondary, style: "italic")[#subtitle]]
     ],
     align(right)[
-      #text(fill: color-secondary, size: size-meta)[#location] \
-      #text(fill: color-secondary, size: size-meta)[#date]
+      #if location != "" [#text(fill: color-secondary, size: size-meta)[#location]]
+      #if location != "" and date != "" [ \ ]
+      #if date != "" [#text(fill: color-secondary, size: size-meta)[#date]]
     ],
   )
 }

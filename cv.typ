@@ -2,7 +2,7 @@
 // cv.typ — content only, no styling logic
 // =====================================================
 
-#import "template.typ": cv, cv-header, section, entry, entry-line, skill-row, color-secondary, size-meta
+#import "template.typ": cv, cv-header, section, entry, entry-line, skill-row
 
 #show: cv
 
@@ -65,21 +65,17 @@ Built a range of backend and full-stack applications focused on system design, A
 
 #entry(
   title:    [Bachelor of Engineering in Computer Science],
-  subtitle: [Database and Software Engineering],
+  subtitle: [Database and Software Engineering  |  Grade: 5/5],
   location: [Polish Japanese Academy of Information Technology],
-  date:     [Grade: 5],
 )
 
-#v(0.6em)
+#v(0.4em)
 
-#grid(
-  columns: (1fr, auto),
-  [
-    #text(weight: "bold")[CELTA] #h(0.4em)
-    -- Cambridge English Level 5 Certificate in #text(style: "italic")[Teaching English to Speakers of Other Languages] \
-    #text(fill: color-secondary, size: size-meta)[British Council | Warsaw, Poland]
-  ],
-  align(right)[#text(fill: color-secondary, size: size-meta)[2024]],
+#entry(
+  title:    [CELTA],
+  subtitle: [Certificate in Teaching English to Speakers of Other Languages],
+  location: [British Council | Warsaw, Poland],
+  date:     [2024],
 )
 
 #v(0.4em)
