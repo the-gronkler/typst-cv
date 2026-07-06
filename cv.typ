@@ -49,14 +49,17 @@ Built and extended backend and frontend features for a financial reporting platf
 - Supported production releases, debugging, and issue resolution for live systems.
 
 #v(0.2em)
-#text(weight: "bold")[Engineering Thesis] #h(0.5em) #text(style: "italic")[Laravel, React]
+#text(weight: "bold")[Engineering Thesis Application] #h(0.5em) #text(style: "italic")[Laravel, React]
 #v(0.25em)
-Co-developed a full-stack restaurant ordering system with real-time order tracking and geolocation-based features.
+Co-developed a full-stack restaurant ordering system with real-time order tracking and geolocation-based features, including backend, frontend, database design, and deployment (Docker, Azure, GitHub Actions CI/CD).
+
 - Designed system architecture and core domain model for ordering workflows
-- Implemented backend services and APIs in Laravel supporting real-time state updates
+
+- Designed database schema and implemented backend services, supporting real-time order state updates
+
 - Built frontend interface in React for order placement and tracking
+
 - Defined MVP scope through user flow design and lightweight market research
-- Delivered end-to-end product including database schema, backend logic, and UI integration
 
 #v(0.2em)
 #text(weight: "bold")[Personal Projects]
