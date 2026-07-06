@@ -21,7 +21,7 @@
 
 // ── About ────────────────────────────────────────────
 #section(title: "About")
-Software Engineer focused on backend systems and product development. I enjoy designing scalable APIs, building full-stack features, and working on system-level decisions that connect product requirements with clean technical architecture, with a growing interest in applying AI tools to improve engineering workflows and developer productivity.
+Fullstack Software Engineer focused on backend systems and product development. I design and build APIs, data models, and full-stack features, and make system-level decisions that translate product requirements into clean technical architecture. I enjoy working on complex domain-driven systems and have practical experience building AI-driven development tooling to improve engineering workflows and productivity.
 
 
 // ── Experience ───────────────────────────────────────
@@ -36,15 +36,15 @@ Software Engineer focused on backend systems and product development. I enjoy de
 #v(0.25em)
 Built and extended backend and frontend features for a financial reporting platform, including iXBRL report generation and validation.
 
-- Primary engineer for multiple features, making technical design decisions and driving implementation from initial requirements through production support.
+- Primary engineer for multiple features, responsible for technical design decisions and end-to-end implementation from requirements through production support.
 
-- Designed API structures and data models, defining how application data was mapped into iXBRL report structures.
+- Designed API structures and data models, defining how financial reporting data was transformed into iXBRL report structures.
 
-- Investigated the iXBRL specification to support system design and implementation of report generation and validation features.
+- Investigated the iXBRL specification to support implementation of report generation and validation logic.
 
 - Designed and implemented AI-driven development tooling within the codebase, including custom agents and reusable agent skills to automate repetitive engineering tasks.
 
-- Collaborated with finance domain experts to translate regulatory requirements into technical specifications and system designs.
+- Collaborated with finance domain experts to translate regulatory requirements into technical specifications for system implementation.
 
 - Supported production releases, debugging, and issue resolution for live systems.
 
