@@ -36,17 +36,17 @@ Software Engineer focused on backend systems and product development. I enjoy de
 #v(0.25em)
 Built and extended backend and frontend features for a financial reporting platform, including iXBRL report generation and validation.
 
-- Implemented backend services supporting report generation workflows across a financial reporting platform.
+- Primary engineer for multiple features, making technical design decisions and driving implementation from initial requirements through production support.
 
-- Designed API structures and data models for modules within the reporting system, defining how application data was mapped into iXBRL report structures.
+- Designed API structures and data models, defining how application data was mapped into iXBRL report structures.
 
 - Investigated the iXBRL specification to support system design and implementation of report generation and validation features.
 
-- Designed and implemented AI-driven development tooling within the codebase, including custom agents and agent skills used to automate repetitive engineering workflows.
+- Designed and implemented AI-driven development tooling within the codebase, including custom agents and reusable agent skills to automate repetitive engineering tasks.
 
-- Collaborated with finance domain stakeholders to translate requirements into technical specifications and system designs.
+- Collaborated with finance domain experts to translate regulatory requirements into technical specifications and system designs.
 
-- Supported production releases and debugging of live systems, ensuring stability of user-facing workflows.
+- Supported production releases, debugging, and issue resolution for live systems.
 
 #v(0.2em)
 #text(weight: "bold")[Engineering Thesis] #h(0.5em) #text(style: "italic")[Laravel, React]
