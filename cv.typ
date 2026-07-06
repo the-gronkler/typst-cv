@@ -78,10 +78,15 @@ Built a range of backend and full-stack applications focused on system design, A
 
 #v(0.4em)
 
-#entry(
+// #entry(
+//   title:    [CELTA],
+//   subtitle: [Certificate in Teaching English to Speakers of Other Languages],
+//   location: [British Council | Warsaw, Poland],
+//   date:     [2024],
+// )
+#entry-line(
   title:    [CELTA],
-  subtitle: [Certificate in Teaching English to Speakers of Other Languages],
-  location: [British Council | Warsaw, Poland],
+  location: [   Certificate in Teaching English to Speakers of Other Languages | British Council],
   date:     [2024],
 )
 
