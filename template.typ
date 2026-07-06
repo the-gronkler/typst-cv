@@ -21,17 +21,17 @@
 #let size-job-title    = 11pt
 
 // ── Spacing ───────────────────────────────────────────
-#let leading-body      = 0.55em
+#let leading-body      = 0.65em
 #let spacing-body      = 0.55em
-#let leading-list      = 0.45em
+#let leading-list      = 0.55em
 #let spacing-list      = 0.35em
 #let indent-list       = 1em
 #let body-indent-list  = 0.4em
 #let gap-list          = 0.55em
 
 // ── Page ──────────────────────────────────────────────
-#let margin-top    = 1.6cm
-#let margin-bottom = 1.6cm
+#let margin-top    = 1cm
+#let margin-bottom = 1cm
 #let margin-h      = 1.8cm
 
 // ── Misc ──────────────────────────────────────────────
