@@ -158,6 +158,28 @@ Repeated terminology (e.g. the same domain or technology) should only appear whe
 
 ---
 
+### 9. Optimize for authenticity, not maximum polish
+
+A CV should sound like the candidate, not like a perfectly polished template.
+
+When reviewing summaries, descriptions, or bullet points:
+
+* Preserve the candidate's natural voice whenever possible.
+* Do not rewrite simply because a sentence could be more elegant.
+* Prefer language that feels genuine and conversational over language that feels artificially "professional."
+* The About section serves a different purpose than experience bullets: it establishes identity and personality, while the experience section provides evidence.
+* If a rewrite improves the writing but makes it sound less like the candidate, it is not an improvement.
+
+Always ask:
+
+* Does this sound like something the candidate would naturally say?
+* Does this preserve their engineering identity?
+* Is the change improving substance, or only polish?
+
+Only rewrite when there is a clear gain in clarity, accuracy, positioning, or readability.
+
+---
+
 ## Review Process
 
 When reviewing a CV:
