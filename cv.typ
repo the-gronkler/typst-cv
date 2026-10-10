@@ -21,7 +21,7 @@
 
 // ── About ────────────────────────────────────────────
 #section(title: "About")
-Fullstack Software Engineer focused on backend systems and product development. I design and build APIs, data models, and full-stack features, and make system-level decisions that translate product requirements into clean technical architecture. I enjoy working on complex domain-driven systems and have practical experience building AI-driven development tooling to improve engineering workflows and productivity.
+Software Engineer focused on backend systems and domain-driven design. I specialize in translating complex regulatory and business requirements into maintainable technical architecture. Experienced in designing API structures, data models, and internal AI-driven tooling to solve specific engineering bottlenecks.
 
 
 // ── Experience ───────────────────────────────────────
@@ -29,7 +29,7 @@ Fullstack Software Engineer focused on backend systems and product development. 
 
 #entry(
   title:    [Developer | AI & Automation],
-  subtitle: [Python, React],
+  subtitle: [Python, React, iXBRL],
   location: [EY | Warsaw, Poland],
   date:     [Jul 2025 – present],
 )
@@ -42,31 +42,31 @@ Built and extended backend and frontend features for a financial reporting platf
 
 - Investigated the iXBRL specification to support implementation of report generation and validation logic.
 
-- Designed and implemented AI-driven development tooling within the codebase, including custom agents and reusable agent skills to automate repetitive engineering tasks.
+- Designed and implemented internal AI agents and 'agent skills' within the codebase, using structured documentation as LLM context to automate repetitive tasks and ensure accuracy in AI-generated code."
 
-- Collaborated with finance domain experts to translate regulatory requirements into technical specifications for system implementation.
+- Translated ambiguous regulatory requirements into technical specifications by collaborating directly with finance domain experts.
 
 - Supported production releases, debugging, and issue resolution for live systems.
 
 #v(0.2em)
-#text(weight: "bold")[Engineering Thesis Application] #h(0.5em) #text(style: "italic")[Laravel, React]
+#text(weight: "bold")[Real-Time Geolocation Ordering System] #h(0.5em) #text(style: "italic")[Laravel, React]
 #v(0.25em)
 Co-developed a full-stack restaurant ordering system with real-time order tracking and geolocation-based features, including backend, frontend, database design, and deployment (Docker, Azure, GitHub Actions CI/CD).
 
-- Designed system architecture and core domain model for ordering workflows
+// TODO: change order to: 1. Architected workflow, 2. Database schema, 3. Frontend, 4. MVP scope
+- Implemented the order lifecycle, defining how orders progress from placement through delivery.
 
-- Designed database schema and implemented backend services, supporting real-time order state updates
+- Designed a relational database schema optimized for geolocation queries and real-time state updates.
 
 - Built frontend interface in React for order placement and tracking
 
-- Defined MVP scope through user flow design and lightweight market research
+- Defined MVP scope through user flow design and market research
 
 #v(0.2em)
 #text(weight: "bold")[Personal Projects]
 #v(0.25em)
-Built a range of backend and full-stack applications focused on system design, API development, and database architecture.
-- Designed and implemented multiple CRUD and workflow-based systems using Laravel, Spring Boot, ASP.NET Core, and Python
-- Focused on backend architecture patterns (layered design, domain modeling, API structuring)
+- Built backend and full-stack applications using Laravel, Spring Boot, ASP.NET Core, and Python, with a focus on system design, API development, and database architecture.
+- Applied layered design, event-driven updates, domain modeling, and API structuring to build backend systems for complex workflows.
 - Developed small-scale experiments in data processing and algorithmic simulations
 
 
@@ -87,6 +87,7 @@ Built a range of backend and full-stack applications focused on system design, A
 //   location: [British Council | Warsaw, Poland],
 //   date:     [2024],
 // )
+
 #entry-line(
   title:    [CELTA],
   location: [   Certificate in Teaching English to Speakers of Other Languages | British Council],
@@ -106,11 +107,11 @@ Built a range of backend and full-stack applications focused on system design, A
 #section(title: "Skills")
 
 #let skills = (
-  ("Core Engineering", "Backend Development, System Design, API Design (REST), Database Design, Full-stack Development"),
+  ("Core Engineering", "Domain-Driven Design (DDD), System Design, API (REST), Database Design"),
   ("Programming Languages", "Python TypeScript / JavaScript, Java, C#, PHP"),
   ("Frameworks", "React, ASP.NET Core, Laravel"),
   ("Databases", "PostgreSQL, Microsoft SQL Server"),
-  ("Infrastructure / Tools", "REST APIs, System Design (scalable services, modular architecture), AI-assisted development tooling"),
+  ("Infrastructure / Tools", "iXBRL, REST APIs, System Design (scalable services, modular architecture), AI-assisted development tooling"),
 )
 
 #for (label, value) in skills {
