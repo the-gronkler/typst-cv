@@ -29,7 +29,8 @@ Software Engineer focused on backend systems and domain-driven design. I special
 
 #entry(
   title:    [Developer | AI & Automation],
-  subtitle: [Python, React, iXBRL],
+  subtitle: [Python, React, Node.js, iXBRL],
+  role-detail: [Staff 2(current), Staff 1(12 months), Intern(3 months)],
   location: [EY | Warsaw, Poland],
   date:     [Jul 2025 – present],
 )

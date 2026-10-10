@@ -73,16 +73,17 @@
 
 // ── Entry (job or education) ──────────────────────────
 // All fields optional — omitted fields take no space
-#let entry(title: "", subtitle: "", location: "", date: "") = {
+#let entry(title: "", subtitle: "", role-detail: "", location: "", date: "") = {
   grid(
     columns: (1fr, auto),
     gutter: 0.2em,
     [
       #text(font: font-heading, weight: "bold")[#title]
+      #if role-detail != "" [#h(0.3em) #text(fill: color-secondary, style: "italic")[#role-detail]]
       #if subtitle != "" [ \ #text(fill: color-secondary, style: "italic")[#subtitle]]
     ],
     align(right)[
-      #if location != "" [#text(fill: color-secondary, size: size-meta)[#location]]
+      #if location != "" [#text(font: font-heading, weight: "bold")[#location]]
       #if location != "" and date != "" [ \ ]
       #if date != "" [#text(fill: color-secondary, size: size-meta)[#date]]
     ],
