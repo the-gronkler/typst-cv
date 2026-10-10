@@ -120,7 +120,7 @@ Co-developed a full-stack restaurant ordering system with real-time order tracki
   ("Programming Languages", "Python, TypeScript / JavaScript, Java, C#, PHP"),
   ("Frameworks", "React, ASP.NET Core, Laravel"),
   ("Databases", "PostgreSQL, Microsoft SQL Server, MongoDB"),
-  ("Infrastructure / Tools", "Github Actions, Docker, Postman, OpenAPI, AI-assisted development tooling"),
+  ("Infrastructure / Tools", "GitHub Actions, Docker, Postman, OpenAPI, AI-assisted development tooling"),
 )
 
 #for (label, value) in skills {
