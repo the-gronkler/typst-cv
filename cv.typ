@@ -46,13 +46,13 @@ Worked across the full stack of a financial reporting platform, including iXBRL 
 
 - Served as primary engineer for several projects, taking them from requirements analysis and scope planning through architecture, implementation, documentation, and ongoing maintenance and production support.
 
-- Championed improvements to the legacy backend architecture by proposing a clearer approach to technical lead(s) and the team. Documented and scaffolded patterns for separation of concerns and consistent code structure.
+- Championed improvements to the legacy backend architecture by proposing a clearer approach to technical leads and the team. Documented and scaffolded patterns for separation of concerns and consistent code structure.
 
 - Designed API structures and data models for transforming financial reporting data into iXBRL structures.
 
 - Investigated the iXBRL specification to support implementation of report generation and validation logic.
 
-- Designed and implemented internal AI agents and 'agent skills' within the codebase, using structured documentation as LLM context to automate repetitive tasks and ensure accuracy in AI-generated code."
+- Designed and implemented internal AI agents and 'agent skills' within the codebase, using structured documentation as LLM context to automate repetitive tasks and ensure accuracy in AI-generated code.
 
 - Translated ambiguous regulatory requirements into technical specifications by collaborating directly with finance domain experts.
 
@@ -63,7 +63,6 @@ Worked across the full stack of a financial reporting platform, including iXBRL 
 #v(0.25em)
 Co-developed a full-stack restaurant ordering system with real-time order tracking and geolocation-based features, including backend, frontend, database design, and deployment (Docker, Azure, GitHub Actions CI/CD).
 
-// TODO: change order to: 1. Architected workflow, 2. Database schema, 3. Frontend, 4. MVP scope
 - Implemented the order lifecycle, defining how orders progress from placement through delivery.
 
 - Designed a relational database schema optimized for geolocation queries and real-time state updates.
