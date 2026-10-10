@@ -34,11 +34,13 @@ Software Engineer focused on backend systems and domain-driven design. I special
   date:     [Jul 2025 – present],
 )
 #v(0.25em)
-Built and extended backend and frontend features for a financial reporting platform, including iXBRL report generation and validation.
+Worked across the full stack of a financial reporting platform, including iXBRL report generation and validation.
 
-- Primary engineer for multiple features, responsible for technical design decisions and end-to-end implementation from requirements through production support.
+- Served as primary engineer for several projects, taking them from requirements analysis and scope planning through architecture, implementation, documentation, and ongoing maintenance and production support.
 
-- Designed API structures and data models, defining how financial reporting data was transformed into iXBRL report structures.
+- Championed improvements to the legacy backend architecture by proposing a clearer approach to technical lead(s) and the team. Documented and scaffolded patterns for separation of concerns and consistent code structure.
+
+- Designed API structures and data models for transforming financial reporting data into iXBRL structures.
 
 - Investigated the iXBRL specification to support implementation of report generation and validation logic.
 
@@ -46,7 +48,7 @@ Built and extended backend and frontend features for a financial reporting platf
 
 - Translated ambiguous regulatory requirements into technical specifications by collaborating directly with finance domain experts.
 
-- Supported production releases, debugging, and issue resolution for live systems.
+- Supported production releases, debugging, and issue resolution for critical live systems under tight deadlines.
 
 #v(0.2em)
 #text(weight: "bold")[Real-Time Geolocation Ordering System] #h(0.5em) #text(style: "italic")[Laravel, React]

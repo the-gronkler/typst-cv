@@ -22,12 +22,12 @@
 
 // ── Spacing ───────────────────────────────────────────
 #let leading-body      = 0.65em
-#let spacing-body      = 0.55em
+#let spacing-body      = 0.65em
 #let leading-list      = 0.55em
 #let spacing-list      = 0.35em
 #let indent-list       = 1em
 #let body-indent-list  = 0.4em
-#let gap-list          = 0.55em
+#let gap-list          = 0.75em
 
 // ── Page ──────────────────────────────────────────────
 #let margin-top    = 1cm
