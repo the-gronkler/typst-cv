@@ -1,3 +1,8 @@
+---
+name: engineering-cv-reviewer
+description: Help write and refine engineering CVs with accurate, specific, and authentic technical descriptions.
+---
+
 # Skill: Engineering CV Reviewer
 
 ## Purpose
