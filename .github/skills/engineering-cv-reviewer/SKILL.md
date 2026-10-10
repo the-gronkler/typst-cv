@@ -11,6 +11,8 @@ Help write and refine an engineering CV that accurately represents the candidate
 
 The goal is not to make the CV sound more impressive. The goal is to make it more truthful, specific, and memorable.
 
+For this candidate's target roles and work preferences, consult [`references/target-role.md`](references/target-role.md) when reviewing or positioning their CV.
+
 ---
 
 ## Core Positioning
