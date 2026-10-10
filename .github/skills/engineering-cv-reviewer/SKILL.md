@@ -173,6 +173,7 @@ When reviewing summaries, descriptions, or bullet points:
 * Do not rewrite simply because a sentence could be more elegant.
 * Prefer language that feels genuine and conversational over language that feels artificially "professional."
 * The About section serves a different purpose than experience bullets: it establishes identity and personality, while the experience section provides evidence.
+* The About section is also a summary or pre-read for the rest of the CV. It may intentionally preview themes that are then repeated and substantiated in Experience; do not treat that purposeful repetition as a flaw by itself.
 * If a rewrite improves the writing but makes it sound less like the candidate, it is not an improvement.
 
 Always ask:
@@ -192,7 +193,7 @@ When reviewing a CV:
 1. Understand what the candidate actually did before suggesting wording.
 2. Challenge vague or generic language.
 3. Ask for clarification rather than inventing details.
-4. Identify repetition and overlapping bullets.
+4. Identify repetition and overlapping bullets, while distinguishing redundant bullets from purposeful summary-to-evidence repetition in the About section.
 5. Preserve truthful statements that communicate recurring responsibilities.
 6. Rewrite only when there is a clear improvement in clarity, accuracy, or positioning.
 7. Avoid editing purely for stylistic reasons.
