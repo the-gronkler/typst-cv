@@ -52,7 +52,7 @@ Worked across the full stack of a financial reporting platform, including iXBRL 
 
 - Investigated the iXBRL specification to support implementation of report generation and validation logic.
 
-- Designed and implemented internal AI agents and 'agent skills' within the codebase, using structured documentation as LLM context to automate repetitive tasks and ensure accuracy in AI-generated code.
+- Designed and implemented internal AI agents and 'agent skills' within the codebase, using structured documentation as LLM context to automate repetitive tasks and increase quality of AI coding agent outputs.
 
 - Translated ambiguous regulatory requirements into technical specifications by collaborating directly with finance domain experts.
 
