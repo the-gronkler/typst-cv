@@ -21,7 +21,14 @@
 
 // ── About ────────────────────────────────────────────
 #section(title: "About")
-Software Engineer focused on backend systems and domain-driven design. I specialize in translating complex regulatory and business requirements into maintainable technical architecture. Experienced in designing API structures, data models, and internal AI-driven tooling to solve specific engineering bottlenecks.
+Backend-oriented Software Engineer who likes getting involved before implementation: 
+
+understanding the problem, clarifying requirements, and shaping the solution. I work across the full stack, 
+
+with a particular interest in systems and architecture that keeps products maintainable as they evolve. I value owning work from requirements analysis through production and collaborating closely with the people who use and build it.
+
+// Fintech: 
+// Software Engineer focused on backend systems and domain-driven design. I specialize in translating complex regulatory and business requirements into maintainable technical architecture. Experienced in designing API structures, data models, and internal AI-driven tooling to solve specific engineering bottlenecks.
 
 
 // ── Experience ───────────────────────────────────────
