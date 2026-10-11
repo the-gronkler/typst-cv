@@ -25,4 +25,5 @@ Highly process-driven environments where engineers mainly implement fully specif
 - An established product or substantial internal platform with a long-term development roadmap; the employer does not need to be exclusively a product company.
 - Strong engineering fundamentals: maintainable systems, clear abstractions, sound architecture, and good technical judgment.
 - An English-speaking, international team with reasonable autonomy and work-life balance.
+- A team shaped by Nordic work culture is a strong plus, regardless of where the role is based, but not a requirement. Particularly appealing are flat hierarchies, trust and autonomy, direct communication, collaborative decision-making, and a sustainable approach to work and personal time.
 - Competitive compensation and meaningful opportunities for career growth.
